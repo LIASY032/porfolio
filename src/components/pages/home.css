@@ -1,0 +1,117 @@
+.spinner {
+  position: relative;
+  background: inherit;
+  height: 100vh;
+  width: 100vh;
+  /* animation: myanim-box 50s ease-in-out alternate infinite; */
+}
+
+.content {
+  font-size: 9vh;
+  position: absolute;
+  margin: 30%;
+  top: auto;
+  display: flex;
+
+  color: #00ffff;
+}
+
+.l-pattern {
+  height: 40vh;
+}
+
+.content > div {
+  margin: 10px;
+  padding: 90px;
+}
+
+.triangle {
+  color: green;
+  top: 10vh;
+  animation: myanim-childs-1 40s ease-in alternate-reverse infinite;
+}
+
+.circle {
+  color: red;
+  top: 40vh;
+  right: 40vh;
+  animation: myanim-childs-2 60s ease-in alternate-reverse infinite;
+}
+
+.square {
+  color: honeydew;
+  top: 50vh;
+  right: 80vh;
+  animation: myanim-childs-0 60s ease-in alternate-reverse infinite;
+}
+
+.pattern-size {
+  width: 25vh;
+  height: 25vh;
+}
+
+/* .a {
+  animation: myanim-childs-1 40s ease-in alternate-reverse infinite;
+}
+
+.b {
+  animation: myanim-childs-2 60s ease-in alternate-reverse infinite;
+} */
+
+@keyframes myanim-box {
+  0% {
+    transform: rotate(90deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+/* here i put the animation random for each child */
+
+@keyframes myanim-childs-0 {
+  0% {
+    top: 50vh;
+    left: 10px;
+  }
+  50% {
+    top: 75vh;
+    left: 20px;
+  }
+  100% {
+    top: 10vh;
+    right: 32px;
+  }
+}
+
+@keyframes myanim-childs-1 {
+  0% {
+    top: 1vh;
+    left: 50vh;
+  }
+  50% {
+    top: 40vh;
+    left: 30vh;
+  }
+  100% {
+    top: 70vh;
+    left: 80vh;
+  }
+}
+
+@keyframes myanim-childs-2 {
+  0% {
+    top: 10vh;
+    left: 20vh;
+  }
+  50% {
+    top: 40vh;
+    left: 0vh;
+  }
+  100% {
+    top: 60vh;
+    left: 60vh;
+  }
+}
