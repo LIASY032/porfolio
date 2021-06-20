@@ -18,12 +18,12 @@ function Navigation() {
       >
         <Nav>
           <Nav.Item>
-            <Nav.Link href="#home">
+            <Nav.Link href="/">
               <HouseFill size={30} color="#00ffff" />
             </Nav.Link>
           </Nav.Item>
           <Nav.Item>
-            <Nav.Link href="#features">
+            <Nav.Link href="/about">
               <PersonCircle size={30} color="#00ffff" />
             </Nav.Link>
           </Nav.Item>
