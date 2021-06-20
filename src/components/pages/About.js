@@ -6,7 +6,7 @@ function About() {
       <h1>About me</h1>
       <p>Hi Guys,</p>
       <p>
-        I am Shiwei Liang coming from China. Now I am stdying in University of
+        I am Shiwei Liang coming from China. Now I am studying in University of
         South Australia.
       </p>
     </>
