@@ -28,12 +28,12 @@ function Navigation() {
             </Nav.Link>
           </Nav.Item>
           <Nav.Item>
-            <Nav.Link href="#pricing">
+            <Nav.Link href="/skill">
               <GearWideConnected size={30} color="#00ffff" />
             </Nav.Link>
           </Nav.Item>
           <Nav.Item>
-            <Nav.Link href="#project">
+            <Nav.Link href="/project">
               <Box size={30} color="#00ffff" />
             </Nav.Link>
           </Nav.Item>
