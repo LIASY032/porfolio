@@ -1,0 +1,7 @@
+.common-container {
+  position: relative;
+  background: inherit;
+  height: 100vh;
+  width: 100vh;
+  /* animation: myanim-box 50s ease-in-out alternate infinite; */
+}
