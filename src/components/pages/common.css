@@ -37,3 +37,29 @@
   padding-left: 1vh;
   padding-top: 3vh;
 }
+
+.text-container {
+  display: flex;
+  height: 20vh;
+}
+
+span:hover {
+  color: yellow;
+  animation: text-animation 40s ease-in alternate-reverse infinite;
+}
+span {
+  font-size: 10vh;
+  white-space: pre;
+}
+
+@keyframes text-animation {
+  0% {
+    transform: rotate(90deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
