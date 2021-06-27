@@ -6,7 +6,15 @@ function Skills() {
     <div className="common-container">
       <div className="flex-container">
         <div>
-          <h1>Skills</h1>
+          <div className="text-container">
+            <span>S</span>
+            <span>k</span>
+            <span>i</span>
+            <span>l</span>
+            <span>l</span>
+
+            <span>s</span>
+          </div>
           <p>redux react css javascript java python data structure sql</p>
         </div>
         <div>this is animation part.</div>
