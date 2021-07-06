@@ -2,6 +2,7 @@ import React from "react";
 import { Circle, Square, Triangle } from "react-bootstrap-icons";
 import "./home.css";
 import "./common.css";
+import { Fade } from "react-reveal";
 
 function Home() {
   return (
@@ -14,27 +15,29 @@ function Home() {
         <Circle className="circle position-absolute pattern-size " />
         <div className="content">
           <div>
-            <div className="text-container">
-              <span>H</span>
-              <span>i, </span>
-            </div>
-            <div className="text-container">
-              <span>I </span>
-              <span>a</span>
-              <span>m </span>
+            <Fade bottom cascade={true}>
+              <div className="text-container">
+                <span>H</span>
+                <span>i, </span>
+              </div>
+              <div className="text-container">
+                <span>I </span>
+                <span>a</span>
+                <span>m </span>
 
-              <span>S</span>
-              <span>h</span>
-              <span>i</span>
-              <span>w</span>
-              <span>e</span>
-              <span>i </span>
-              <span>L</span>
-              <span>i</span>
-              <span>a</span>
-              <span>n</span>
-              <span>g</span>
-            </div>
+                <span>S</span>
+                <span>h</span>
+                <span>i</span>
+                <span>w</span>
+                <span>e</span>
+                <span>i </span>
+                <span>L</span>
+                <span>i</span>
+                <span>a</span>
+                <span>n</span>
+                <span>g</span>
+              </div>
+            </Fade>
           </div>
 
           <div>

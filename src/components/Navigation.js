@@ -5,6 +5,7 @@ import {
   GearWideConnected,
   HouseFill,
   PersonCircle,
+  PersonLinesFill,
 } from "react-bootstrap-icons";
 
 function Navigation() {
@@ -35,6 +36,11 @@ function Navigation() {
           <Nav.Item>
             <Nav.Link href="/project">
               <Box size={30} color="#00ffff" />
+            </Nav.Link>
+          </Nav.Item>
+          <Nav.Item>
+            <Nav.Link href="/contact">
+              <PersonLinesFill size={30} color="#00ffff"></PersonLinesFill>
             </Nav.Link>
           </Nav.Item>
         </Nav>
