@@ -1,21 +1,25 @@
 import React from "react";
 import "./common.css";
+import { Fade } from "react-reveal";
 
 function About() {
   return (
     <div className="common-container">
       <div className="flex-container">
         <div>
-          <div className="text-container">
-            <span>A</span>
-            <span>b</span>
-            <span>o</span>
-            <span>u</span>
-            <span>t </span>
+          <Fade bottom cascade={true}>
+            <div className="text-container">
+              <span>A</span>
+              <span>b</span>
+              <span>o</span>
+              <span>u</span>
+              <span>t </span>
 
-            <span>m</span>
-            <span>e</span>
-          </div>
+              <span>m</span>
+              <span>e</span>
+            </div>
+          </Fade>
+
           {/* <h1>About me</h1> */}
           <p>Hi Guys,</p>
           <p>
