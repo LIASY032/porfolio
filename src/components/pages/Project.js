@@ -1,10 +1,23 @@
 import React from "react";
 import { Card, Button } from "react-bootstrap";
+import { Fade } from "react-reveal";
 import "./common.css";
 
 function Project() {
   return (
     <div className="common-container">
+      <Fade bottom cascade={true}>
+        <div className="text-container">
+          <span>P</span>
+          <span>r</span>
+          <span>o</span>
+          <span>j</span>
+          <span>e</span>
+
+          <span>c</span>
+          <span>t</span>
+        </div>
+      </Fade>
       <div className="grid-container">
         <div className="item">
           <Card style={{ width: "18rem" }}>

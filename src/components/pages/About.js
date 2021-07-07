@@ -1,6 +1,7 @@
 import React from "react";
 import "./common.css";
 import { Fade } from "react-reveal";
+import Example from "../3dCarousel";
 
 function About() {
   return (
@@ -27,7 +28,9 @@ function About() {
             of South Australia.
           </p>
         </div>
-        <div>this is animation part.</div>
+        <div>
+          <Example />{" "}
+        </div>
       </div>
     </div>
   );
