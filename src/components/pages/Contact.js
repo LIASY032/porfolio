@@ -18,6 +18,14 @@ function Contact() {
           <span>e</span>
         </div>
       </Fade>
+
+      <div>
+        <p>I am interested in frontend or backend opportunities</p>
+        <p>
+          If you want to contact me for jobs, please write the "job" in
+          "Subject"
+        </p>
+      </div>
     </div>
   );
 }
