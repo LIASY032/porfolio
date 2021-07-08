@@ -67,7 +67,8 @@ function ThreeDCarousel() {
 
   useEffect(() => {
     setTimeout(
-      () => setSilderState({ goToSlide: slideState.goToSlide + 1 }),
+      () =>
+        setSilderState({ ...slideState, goToSlide: slideState.goToSlide + 1 }),
       3000
     );
   }, [slideState]);
