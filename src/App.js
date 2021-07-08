@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Navigation from "./components/Navigation";
 import Home from "./components/pages/Home";
 import "./App.css";
@@ -14,11 +14,13 @@ function App() {
       <Router>
         <Navigation />
 
-        <Route path="/" exact component={Home}></Route>
-        <Route path="/about" component={About}></Route>
-        <Route path="/project" component={Project}></Route>
-        <Route path="/skill" component={Skills}></Route>
-        <Route path="/contact" component={Contact}></Route>
+        <Switch>
+          <Route path="/" exact component={Home}></Route>
+          <Route path="/about" component={About}></Route>
+          <Route path="/project" component={Project}></Route>
+          <Route path="/skill" component={Skills}></Route>
+          <Route path="/contact" component={Contact}></Route>
+        </Switch>
       </Router>
 
       <footer></footer>
