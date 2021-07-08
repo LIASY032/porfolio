@@ -57,13 +57,18 @@ function ThreeDCarousel() {
       ),
     },
   ].map((slide, index) => {
-    return { ...slide, onClick: () => this.setState({ goToSlide: index }) };
+    return {
+      ...slide,
+      onClick: () => {
+        console.log(index);
+      },
+    };
   });
 
   useEffect(() => {
     setTimeout(
       () => setSilderState({ goToSlide: slideState.goToSlide + 1 }),
-      1000
+      3000
     );
   }, [slideState]);
 
