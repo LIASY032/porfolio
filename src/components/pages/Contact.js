@@ -3,9 +3,10 @@ import "./common.css";
 import { Fade } from "react-reveal";
 import { Container, Row, Col } from "react-bootstrap";
 import ContactInput from "../ContactInput";
+import MyMap from "../MyMap";
 function Contact() {
   return (
-    <Container className="common-container padding-top-half">
+    <Container className="common-container ">
       <Row>
         <Col>
           <Fade bottom cascade={true}>
@@ -22,14 +23,19 @@ function Contact() {
               <span>e</span>
             </div>
           </Fade>
-          <p>I am interested in frontend or backend opportunities</p>
-          <p>
-            If you want to contact me for jobs, please write the "job" in
-            "Subject"
-          </p>
+          <Row className="justify-content-md-center">
+            <p>I am interested in frontend or backend opportunities</p>
+            <p>
+              If you want to contact me for jobs, please write the "job" in
+              "Subject"
+            </p>
+          </Row>
+
           <ContactInput></ContactInput>
         </Col>
-        <Col>Show the map</Col>
+        <Col>
+          <MyMap></MyMap>
+        </Col>
       </Row>
     </Container>
   );
