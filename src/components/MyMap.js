@@ -8,9 +8,9 @@ import {
 
 const MyMapComponent = withScriptjs(
   withGoogleMap((props) => (
-    <GoogleMap defaultZoom={8} defaultCenter={{ lat: -34.397, lng: 150.644 }}>
+    <GoogleMap defaultZoom={8} defaultCenter={{ lat: -34.397, lng: 138.616 }}>
       {props.isMarkerShown && (
-        <Marker position={{ lat: -34.397, lng: 150.644 }} />
+        <Marker position={{ lat: -34.397, lng: 138.616 }} />
       )}
     </GoogleMap>
   ))
@@ -21,7 +21,7 @@ function MyMap() {
       isMarkerShown
       googleMapURL="https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places"
       loadingElement={<div style={{ height: `100%` }} />}
-      containerElement={<div style={{ height: `400px` }} />}
+      containerElement={<div style={{ height: `92vh` }} />}
       mapElement={<div style={{ height: `100%` }} />}
     />
   );
