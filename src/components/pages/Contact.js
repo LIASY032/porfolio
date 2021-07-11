@@ -4,6 +4,9 @@ import { Fade } from "react-reveal";
 import { Container, Row, Col } from "react-bootstrap";
 import ContactInput from "../ContactInput";
 import MyMap from "../MyMap";
+import AnimateText from "@moxy/react-animate-text";
+import "@moxy/react-animate-text/dist/index.css";
+
 function Contact() {
   return (
     <Container className="common-container ">
@@ -12,17 +15,10 @@ function Contact() {
           <Container>
             <Row>
               <Fade bottom cascade={true}>
-                <div className="text-container">
-                  <span>C</span>
-                  <span>o</span>
-                  <span>n</span>
-                  <span>t</span>
-                  <span>a</span>
-                  <span>c</span>
-                  <span>t </span>
-
-                  <span>m</span>
-                  <span>e</span>
+                <div className="container">
+                  <AnimateText initialDelay={0.5} wordDelay={0.5}>
+                    Contact me
+                  </AnimateText>
                 </div>
               </Fade>
             </Row>

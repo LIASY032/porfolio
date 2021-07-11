@@ -1,6 +1,8 @@
 import React from "react";
 import "./common.css";
 import { Fade } from "react-reveal";
+import AnimateText from "@moxy/react-animate-text";
+import "@moxy/react-animate-text/dist/index.css";
 
 function Skills() {
   return (
@@ -8,15 +10,9 @@ function Skills() {
       <div className="flex-container">
         <div>
           <Fade bottom cascade={true}>
-            <div className="text-container">
-              <span>S</span>
-              <span>k</span>
-              <span>i</span>
-              <span>l</span>
-              <span>l</span>
-
-              <span>s</span>
-            </div>
+            <AnimateText initialDelay={0.5} wordDelay={0.5}>
+              Skills
+            </AnimateText>
           </Fade>
 
           <p>redux react css javascript java python data structure sql</p>

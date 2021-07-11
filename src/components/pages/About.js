@@ -3,6 +3,8 @@ import "./common.css";
 import { Fade } from "react-reveal";
 import Example from "../3dCarousel";
 import { Container, Row, Col } from "react-bootstrap";
+import AnimateText from "@moxy/react-animate-text";
+import "@moxy/react-animate-text/dist/index.css";
 
 function About() {
   return (
@@ -11,16 +13,7 @@ function About() {
         <Row>
           <Col xs={6}>
             <Fade bottom cascade={true}>
-              <div className="text-container">
-                <span>A</span>
-                <span>b</span>
-                <span>o</span>
-                <span>u</span>
-                <span>t </span>
-
-                <span>m</span>
-                <span>e</span>
-              </div>
+              <AnimateText>About me</AnimateText>
             </Fade>
             <p>Hi Guys,</p>
             <p>

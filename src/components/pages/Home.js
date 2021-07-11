@@ -3,6 +3,8 @@ import { Circle, Square, Triangle } from "react-bootstrap-icons";
 import "./home.css";
 import "./common.css";
 import { Fade } from "react-reveal";
+import AnimateText from "@moxy/react-animate-text";
+import "@moxy/react-animate-text/dist/index.css";
 
 function Home() {
   return (
@@ -16,26 +18,13 @@ function Home() {
         <div className="content">
           <div>
             <Fade bottom cascade={true}>
-              <div className="text-container">
-                <span>H</span>
-                <span>i, </span>
-              </div>
-              <div className="text-container">
-                <span>I </span>
-                <span>a</span>
-                <span>m </span>
-
-                <span>S</span>
-                <span>h</span>
-                <span>i</span>
-                <span>w</span>
-                <span>e</span>
-                <span>i </span>
-                <span>L</span>
-                <span>i</span>
-                <span>a</span>
-                <span>n</span>
-                <span>g</span>
+              <div className="container">
+                <AnimateText initialDelay={0.5} wordDelay={0.5}>
+                  Hi,
+                </AnimateText>
+                <AnimateText initialDelay={0.5} wordDelay={0.5}>
+                  I am Shiwei Liang
+                </AnimateText>
               </div>
             </Fade>
           </div>
