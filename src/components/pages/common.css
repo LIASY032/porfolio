@@ -2,11 +2,11 @@
   position: relative;
   background: inherit;
  
+  padding: auto;
   min-height: 100vh;
   min-width: 100vw;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
+
+  
 }
 
 .padding-top-half{

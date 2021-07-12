@@ -10,9 +10,11 @@ function Skills() {
       <div className="flex-container">
         <div>
           <Fade bottom cascade={true}>
-            <AnimateText initialDelay={0.5} wordDelay={0.5}>
-              Skills
-            </AnimateText>
+            <div className="container">
+              <AnimateText initialDelay={0.5} wordDelay={0.5}>
+                Skills
+              </AnimateText>
+            </div>
           </Fade>
 
           <p>redux react css javascript java python data structure sql</p>
