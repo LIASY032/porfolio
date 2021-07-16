@@ -16,6 +16,7 @@ function Navigation() {
         variant="dark"
         fixed="bottom"
         className="justify-content-center"
+        style={{ height: "8vh" }}
       >
         <Nav>
           <Nav.Item>

@@ -8,23 +8,25 @@ import Item from "../Item";
 
 function Project() {
   return (
-    <Container className="common-container text-center">
-      <Row>
-        <Fade bottom cascade={true}>
-          <div className="container ">
-            <AnimateText>Projects</AnimateText>
-          </div>
-        </Fade>
-      </Row>
-      <Row>
-        <Col>
-          <Item />
-        </Col>
-        <Col>
-          <Item />
-        </Col>
-      </Row>
-    </Container>
+    <div className="common-container">
+      <Container className="text-center">
+        <Row>
+          <Fade bottom cascade={true}>
+            <div className="container ">
+              <AnimateText>Projects</AnimateText>
+            </div>
+          </Fade>
+        </Row>
+        <Row>
+          <Col>
+            <Item />
+          </Col>
+          <Col>
+            <Item />
+          </Col>
+        </Row>
+      </Container>
+    </div>
   );
 }
 
