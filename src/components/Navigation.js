@@ -14,9 +14,9 @@ function Navigation() {
       <Navbar
         bg="dark"
         variant="dark"
-        fixed="bottom"
+        sticky="bottom"
         className="justify-content-center"
-        style={{ height: "8vh" }}
+        style={{ height: "9vh" }}
       >
         <Nav>
           <Nav.Item>

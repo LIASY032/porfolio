@@ -1,7 +1,7 @@
 .spinner {
   position: relative;
   background: inherit;
-  height: 100vh;
+  height: 95vh;
   width: 100vw;
   /* animation: myanim-box 50s ease-in-out alternate infinite; */
 }
