@@ -14,7 +14,7 @@ function Navigation() {
       <Navbar
         bg="dark"
         variant="dark"
-        sticky="bottom"
+        fixed="bottom"
         className="justify-content-center"
         style={{ height: "9vh" }}
       >

@@ -20,6 +20,10 @@ function About() {
               I am Shiwei Liang coming from China. Now I am studying in
               University of South Australia.
             </p>
+            <p>
+              Since I learned my first programming language (python) on Youtube,
+              I was fascinated by programming.
+            </p>
           </Col>
           <Col xs={6}>
             <Example />

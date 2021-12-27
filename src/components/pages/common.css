@@ -1,15 +1,13 @@
 .common-container {
   position: relative;
   background: inherit;
- 
+
   padding: auto;
   min-height: 91vh;
   min-width: 100vw;
-
-  
 }
 
-.padding-top-half{
+.padding-top-half {
   padding-top: 30vh;
 }
 
@@ -46,15 +44,12 @@
   display: flex;
   height: 20vh;
 }
-
+/* 
 span:hover {
   color: yellow;
   animation: text-animation 40s ease-in alternate-reverse infinite;
 }
-span {
-  font-size: 10vh;
-  white-space: pre;
-}
+
 
 @keyframes text-animation {
   0% {
@@ -67,4 +62,4 @@ span {
     transform: rotate(360deg);
   }
 }
-
+ */
