@@ -5,6 +5,7 @@ import { Fade } from "react-reveal";
 import Particles from "react-particles-js";
 import SkillBar from "react-skillbars";
 import Title from "../Title";
+import TwoColumnContainer from "../TwoColumnContainer";
 function Skills() {
   const skills = [
     { type: "Java", level: 85 },
@@ -33,7 +34,17 @@ function Skills() {
           },
         }}
       ></Particles>
-      <div className="flex-container">
+
+      <TwoColumnContainer>
+        <TwoColumnContainer.Left>
+          <Title>Skills</Title>
+          <p>redux react css javascript java python data structure sql</p>
+        </TwoColumnContainer.Left>
+        <TwoColumnContainer.Right>
+          <SkillBar skills={skills} />
+        </TwoColumnContainer.Right>
+      </TwoColumnContainer>
+      {/* <div className="flex-container">
         <h2 className=" blast animated infinite rubberBand ">ssssss</h2>
         <div>
           <Title>Skills</Title>
@@ -46,8 +57,8 @@ function Skills() {
           <p>redux react css javascript java python data structure sql</p>
           <SkillBar skills={skills} />
         </div>
-        <div></div>
-      </div>
+        
+      </div> */}
     </div>
   );
 }

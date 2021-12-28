@@ -1,0 +1,19 @@
+.flex-container {
+  display: flex;
+  align-items: stretch;
+  .item {
+    width: 50vw;
+  }
+  .right-item {
+    order: 1;
+  }
+}
+
+@media (max-width: 900px) {
+  .flex-container {
+    flex-direction: column;
+  }
+  .item {
+    width: 100%;
+  }
+}

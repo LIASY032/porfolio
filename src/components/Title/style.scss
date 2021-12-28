@@ -1,25 +1,35 @@
-.animated-text {
-  font-size: 6.5rem;
-  line-height: 6rem;
-  display: inline-block;
-  -webkit-transition: all 0.3s ease-out;
-  -o-transition: all 0.3s ease-out;
-  transition: all 0.3s ease-out;
-  -webkit-animation-duration: 1s;
-  animation-duration: 1s;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
-  &:hover {
-    animation-iteration-count: infinite;
-    -webkit-animation-name: rubberBand;
-    animation-name: rubberBand;
+h2 {
+  font-family: font-file-82132;
+  color: #08fdd8;
+  font-weight: 400;
+  margin-top: 0;
+  position: relative;
+  margin-bottom: 40px;
+  left: -10px;
+  font-size: 7.3rem;
+  line-height: 6.7rem;
+
+  text-align: center;
+  .animated-text {
+    font-size: 6.5rem;
+    line-height: 6rem;
+    display: inline-block;
+    -webkit-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    &:hover {
+      color: yellow;
+      animation-iteration-count: infinite;
+      -webkit-animation-name: rubberBand;
+      animation-name: rubberBand;
+    }
   }
 }
 
-.rubberBand {
-  -webkit-animation-name: rubberBand;
-  animation-name: rubberBand;
-}
 @-webkit-keyframes rubberBand {
   0% {
     -webkit-transform: scale3d(1, 1, 1);
