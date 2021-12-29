@@ -33,13 +33,6 @@
   grid-template-columns: auto auto;
 }
 
-.item {
-  justify-self: center;
-  padding-right: 1vw;
-  padding-left: 1vw;
-  padding-top: 3vh;
-}
-
 .text-container {
   display: flex;
   height: 20vh;

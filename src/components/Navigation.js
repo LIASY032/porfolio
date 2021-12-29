@@ -12,11 +12,9 @@ function Navigation() {
   return (
     <div>
       <Navbar
-        bg="dark"
-        variant="dark"
-        fixed="bottom"
+        sticked="bottom"
         className="justify-content-center"
-        style={{ height: "9vh" }}
+        style={{ height: "9vh", backgroundColor: "#181818", marginBottom: "0" }}
       >
         <Nav>
           <Nav.Item>

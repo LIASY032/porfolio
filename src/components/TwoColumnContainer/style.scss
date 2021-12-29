@@ -1,11 +1,13 @@
 .flex-container {
   display: flex;
   align-items: stretch;
+  min-height: 91vh;
   .item {
     width: 50vw;
   }
   .right-item {
     order: 1;
+    align-items: center;
   }
 }
 

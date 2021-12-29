@@ -5,32 +5,35 @@ import Example from "../3dCarousel";
 import { Container, Row, Col } from "react-bootstrap";
 import AnimateText from "@moxy/react-animate-text";
 import "@moxy/react-animate-text/dist/index.css";
+import Title from "../Title";
+import TwoColumnContainer from "../TwoColumnContainer";
 
 function About() {
   return (
-    <div className="common-container">
-      <Container className="padding-top-half">
-        <Row>
-          <Col xs={6}>
-            <Fade bottom cascade={true}>
-              <AnimateText>About me</AnimateText>
-            </Fade>
-            <p>Hi Guys,</p>
-            <p>
-              I am Shiwei Liang coming from China. Now I am studying in
-              University of South Australia.
-            </p>
-            <p>
-              Since I learned my first programming language (python) on Youtube,
-              I was fascinated by programming.
-            </p>
-          </Col>
-          <Col xs={6}>
-            <Example />
-          </Col>
-        </Row>
-      </Container>
-    </div>
+    <>
+      <TwoColumnContainer.Left>
+        <Title>About</Title>{" "}
+        <span style={{ display: "inline-flex" }}>&nbsp;</span>
+        <span style={{ display: "inline-flex" }}>&nbsp;</span>
+        <span style={{ display: "inline-flex" }}>&nbsp;</span>
+        <span style={{ display: "inline-flex" }}>&nbsp;</span>
+        <span style={{ display: "inline-flex" }}>&nbsp;</span>
+        <Title>me</Title>
+        <p>Hi Guys,</p>
+        <p>
+          I am Shiwei Liang coming from China. Now I am studying in University
+          of South Australia.
+        </p>
+        <p>
+          Since I learned my first programming language (python) on Youtube, I
+          was fascinated by programming.
+        </p>
+      </TwoColumnContainer.Left>
+      <TwoColumnContainer.Right>
+        {" "}
+        <Example />
+      </TwoColumnContainer.Right>
+    </>
   );
 }
 
