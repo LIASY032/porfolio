@@ -1,10 +1,8 @@
 import React from "react";
 import "./common.css";
-import { Fade } from "react-reveal";
+
 import Example from "../3dCarousel";
-import { Container, Row, Col } from "react-bootstrap";
-import AnimateText from "@moxy/react-animate-text";
-import "@moxy/react-animate-text/dist/index.css";
+
 import Title from "../Title";
 import TwoColumnContainer from "../TwoColumnContainer";
 

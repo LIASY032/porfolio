@@ -1,11 +1,8 @@
 import React from "react";
-import { Circle, Square, Triangle } from "react-bootstrap-icons";
 import "./home.css";
 import "./common.css";
-import { Fade } from "react-reveal";
-import AnimateText from "@moxy/react-animate-text";
-import "@moxy/react-animate-text/dist/index.css";
-import { Button, Col, Container, Row } from "react-bootstrap";
+
+import { Button} from "react-bootstrap";
 import TwoColumnContainer from "../TwoColumnContainer";
 import Title from "../Title";
 import HomeBackground from "../HomeBackfround";
