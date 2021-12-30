@@ -2,10 +2,10 @@ import React from "react";
 import "./home.css";
 import "./common.css";
 
-import { Button} from "react-bootstrap";
+import { Button } from "react-bootstrap";
 import TwoColumnContainer from "../TwoColumnContainer";
 import Title from "../Title";
-import HomeBackground from "../HomeBackfround";
+import HomeBackground from "../HomeBackground";
 
 function Home() {
   return (

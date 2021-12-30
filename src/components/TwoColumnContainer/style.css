@@ -2,15 +2,14 @@
   display: flex;
   align-items: stretch;
   min-height: 91vh;
-  .item {
-    width: 50vw;
-  }
-  .right-item {
-    order: 1;
-    align-items: center;
-  }
 }
-
+.flex-container .item {
+  width: 50vw;
+}
+.flex-container .right-item {
+  order: 1;
+  align-items: center;
+}
 @media (max-width: 900px) {
   .flex-container {
     flex-direction: column;

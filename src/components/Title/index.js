@@ -1,5 +1,5 @@
 import React from "react";
-import "./style.scss";
+import "./style.css";
 function Title({ children }) {
   return (
     <h2>
