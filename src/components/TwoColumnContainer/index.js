@@ -1,5 +1,5 @@
 import React from "react";
-import "./style.scss";
+import "./style.css";
 function RightColumn({ children }) {
   return <div className="right-item item">{children}</div>;
 }
