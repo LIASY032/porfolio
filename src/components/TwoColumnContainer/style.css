@@ -12,6 +12,7 @@
 }
 @media (max-width: 900px) {
   .flex-container {
+    height: 100%;
     flex-direction: column;
   }
   .item {

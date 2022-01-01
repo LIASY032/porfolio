@@ -8,7 +8,7 @@ function LeftColumn({ children }) {
   return <div className="left-item item">{children}</div>;
 }
 function TwoColumnContainer({ children }) {
-  return <div class="common-page flex-container">{children}</div>;
+  return <div className="common-page flex-container">{children}</div>;
 }
 
 TwoColumnContainer.Left = LeftColumn;
