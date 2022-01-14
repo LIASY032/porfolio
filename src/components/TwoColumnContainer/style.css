@@ -7,6 +7,9 @@
 .flex-container .item {
   width: 50vw;
 }
+.flex-container .item p {
+  position: relative;
+}
 .flex-container .right-item {
   order: 1;
   align-items: center;

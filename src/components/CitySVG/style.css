@@ -6,10 +6,12 @@
   box-sizing: border-box;
 }
 .svg-container {
-  position: fixed;
+  position: absolute;
+
   display: block;
-  width: 80%;
-  margin: 0 auto;
+
+  width: 90%;
+  bottom: 0;
   height: auto;
 }
 .house {

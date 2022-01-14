@@ -15,21 +15,18 @@ function App() {
   return (
     <div className="App">
       <Router>
-        <Row style={{ width: "100vw" }}>
+        <Row style={{ width: "100vw", position: "relative" }}>
           <Col sm={1}>
             <Navigation />
           </Col>
           <Col sm={11}>
-            {" "}
-            <TwoColumnContainer>
-              <Switch>
-                <Route path="/" exact component={Home}></Route>
-                <Route path="/about" component={About}></Route>
-                <Route path="/project" component={Project}></Route>
-                <Route path="/skill" component={Skills}></Route>
-                <Route path="/contact" component={Contact}></Route>
-              </Switch>
-            </TwoColumnContainer>
+            <Switch>
+              <Route path="/" exact component={Home}></Route>
+              <Route path="/about" component={About}></Route>
+              <Route path="/project" component={Project}></Route>
+              <Route path="/skill" component={Skills}></Route>
+              <Route path="/contact" component={Contact}></Route>
+            </Switch>
           </Col>
         </Row>
       </Router>

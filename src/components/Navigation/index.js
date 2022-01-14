@@ -33,7 +33,7 @@ function Navigation() {
             className="my-icon"
             href="https://www.linkedin.com/in/shiwei-liang-486509221/"
           >
-            <Linkedin style={{ color: "inherit" }} />
+            <Linkedin />
           </a>
         </div>
       </div>

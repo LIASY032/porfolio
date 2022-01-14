@@ -34,18 +34,19 @@ function Skills() {
           },
         }}
       ></Particles>
-
-      <TwoColumnContainer.Left>
-        <Title>Skills</Title>
-        <p>redux react css javascript java python data structure sql</p>
-      </TwoColumnContainer.Left>
-      <TwoColumnContainer.Right>
-        <SkillBar skills={skills} />
-        <ExperienceCard
-          title="Software Engineer"
-          date="8/2021 - 11/2021"
-        ></ExperienceCard>
-      </TwoColumnContainer.Right>
+      <TwoColumnContainer>
+        <TwoColumnContainer.Left>
+          <Title>Skills</Title>
+          <p>redux react css javascript java python data structure sql</p>
+        </TwoColumnContainer.Left>
+        <TwoColumnContainer.Right>
+          <SkillBar skills={skills} />
+          <ExperienceCard
+            title="Software Engineer"
+            date="8/2021 - 11/2021"
+          ></ExperienceCard>
+        </TwoColumnContainer.Right>
+      </TwoColumnContainer>
     </>
   );
 }

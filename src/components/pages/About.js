@@ -10,29 +10,30 @@ import CitySvg from "../CitySVG";
 function About() {
   return (
     <>
-      <TwoColumnContainer.Left>
-        <Title>About</Title>{" "}
-        <span style={{ display: "inline-flex" }}>&nbsp;</span>
-        <span style={{ display: "inline-flex" }}>&nbsp;</span>
-        <span style={{ display: "inline-flex" }}>&nbsp;</span>
-        <span style={{ display: "inline-flex" }}>&nbsp;</span>
-        <span style={{ display: "inline-flex" }}>&nbsp;</span>
-        <Title>me</Title>
-        <p>Hi Guys,</p>
-        <p>
-          I am Shiwei Liang coming from China. Now I am studying in University
-          of South Australia.
-        </p>
-        <p>
-          Since I learned my first programming language (python) on Youtube, I
-          was fascinated by programming.
-        </p>
-      </TwoColumnContainer.Left>
-      <TwoColumnContainer.Right>
-        {" "}
-        <Example />
-      </TwoColumnContainer.Right>
       <CitySvg />
+      <TwoColumnContainer>
+        <TwoColumnContainer.Left>
+          <Title>About</Title>{" "}
+          <span style={{ display: "inline-flex" }}>&nbsp;</span>
+          <span style={{ display: "inline-flex" }}>&nbsp;</span>
+          <span style={{ display: "inline-flex" }}>&nbsp;</span>
+          <span style={{ display: "inline-flex" }}>&nbsp;</span>
+          <span style={{ display: "inline-flex" }}>&nbsp;</span>
+          <Title>me</Title>
+          <p>Hi Guys,</p>
+          <p>
+            I am Shiwei Liang coming from China. Now I am studying in University
+            of South Australia.
+          </p>
+          <p>
+            Since I learned my first programming language (python) on Youtube, I
+            was fascinated by programming.
+          </p>
+        </TwoColumnContainer.Left>
+        <TwoColumnContainer.Right>
+          <Example />
+        </TwoColumnContainer.Right>
+      </TwoColumnContainer>
     </>
   );
 }
