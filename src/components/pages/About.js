@@ -29,6 +29,10 @@ function About() {
             Since I learned my first programming language (python) on Youtube, I
             was fascinated by programming.
           </p>
+          <p>
+            I always spend my time to explore new technologies and improve my
+            existing skills.
+          </p>
         </TwoColumnContainer.Left>
         <TwoColumnContainer.Right>
           <Example />

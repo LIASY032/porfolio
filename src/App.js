@@ -4,9 +4,7 @@ import "./App.css";
 import About from "./components/pages/About";
 import Project from "./components/pages/Project";
 import Skills from "./components/pages/Skills";
-
 import Contact from "./components/pages/Contact";
-import TwoColumnContainer from "./components/TwoColumnContainer";
 
 import Navigation from "./components/Navigation";
 import { Row, Col } from "react-bootstrap";
