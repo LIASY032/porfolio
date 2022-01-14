@@ -5,6 +5,7 @@ import Example from "../3dCarousel";
 
 import Title from "../Title";
 import TwoColumnContainer from "../TwoColumnContainer";
+import CitySvg from "../CitySVG";
 
 function About() {
   return (
@@ -31,6 +32,7 @@ function About() {
         {" "}
         <Example />
       </TwoColumnContainer.Right>
+      <CitySvg />
     </>
   );
 }

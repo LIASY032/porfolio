@@ -8,11 +8,10 @@ import {
   PersonLinesFill,
 } from "react-bootstrap-icons";
 
-function Navigation() {
+function Navigations() {
   return (
     <div>
       <Navbar
-        sticked="bottom"
         className="justify-content-center"
         style={{ height: "9vh", backgroundColor: "#181818", marginBottom: "0" }}
       >
@@ -58,4 +57,4 @@ function Navigation() {
   );
 }
 
-export default Navigation;
+export default Navigations;

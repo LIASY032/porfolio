@@ -6,6 +6,7 @@
   font-family: "Nunito", sans-serif;
   color: white;
   font-size: 20px;
+  min-height: 100vh;
 }
 
 /* .App-logo {

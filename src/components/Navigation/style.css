@@ -1,0 +1,22 @@
+.my-nav {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: #909096;
+}
+.my-nav-item {
+  border-bottom: 1px solid #909096;
+  margin-top: 5vh;
+  text-decoration: none;
+  color: inherit;
+}
+.my-icons-container {
+  display: flex;
+
+  justify-content: space-around;
+}
+
+.my-icons-container .my-icon {
+  text-decoration: none;
+  color: inherit;
+}
