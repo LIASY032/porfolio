@@ -35,31 +35,31 @@ function Navigation() {
           >
             <span>X</span>
           </div>
-          <Link to="/" className="my-nav-item">
+          <Link to="/" className="my-nav-item z-index-1">
             Home
           </Link>
-          <Link to="/about" className="my-nav-item">
+          <Link to="/about" className="my-nav-item z-index-1">
             About
           </Link>
 
-          <Link to="/skill" className="my-nav-item">
+          <Link to="/skill" className="my-nav-item z-index-1">
             Skill
           </Link>
 
-          <Link to="/project" className="my-nav-item">
+          <Link to="/project" className="my-nav-item z-index-1">
             Project
           </Link>
 
-          <Link to="/contact" className="my-nav-item">
+          <Link to="/contact" className="my-nav-item z-index-1">
             Contact
           </Link>
 
           <div className="my-icons-container">
-            <a className="my-icon" href="https://github.com/LIASY032">
+            <a className="my-icon z-index-1" href="https://github.com/LIASY032">
               <Github />
             </a>
             <a
-              className="my-icon"
+              className="my-icon z-index-1"
               href="https://www.linkedin.com/in/shiwei-liang-486509221/"
             >
               <Linkedin />
