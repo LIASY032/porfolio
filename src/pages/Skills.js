@@ -2,9 +2,9 @@ import React from "react";
 
 import Particles from "react-particles-js";
 import SkillBar from "react-skillbars";
-import Title from "../Title";
-import TwoColumnContainer from "../TwoColumnContainer";
-import ExperienceCard from "../ExperienceCard";
+import Title from "../components/Title";
+import TwoColumnContainer from "../components/TwoColumnContainer";
+import ExperienceCard from "../components/ExperienceCard";
 function Skills() {
   const skills = [
     { type: "React", level: 85 },

@@ -74,7 +74,7 @@ function ThreeDCarousel() {
   }, [slideState]);
 
   return (
-    <div style={{ width: "25vw", height: "40vh", margin: "0 auto" }}>
+    <div style={{ width: "25vw", height: "40vh", margin: "auto" }}>
       <Carousel
         slides={slides}
         goToSlide={slideState.goToSlide}

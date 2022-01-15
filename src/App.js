@@ -1,10 +1,10 @@
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import Home from "./components/pages/Home";
+import Home from "./pages/Home";
 import "./App.css";
-import About from "./components/pages/About";
-import Project from "./components/pages/Project";
-import Skills from "./components/pages/Skills";
-import Contact from "./components/pages/Contact";
+import About from "./pages/About";
+import Project from "./pages/Project";
+import Skills from "./pages/Skills";
+import Contact from "./pages/Contact";
 
 import Navigation from "./components/Navigation";
 

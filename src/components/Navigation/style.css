@@ -73,3 +73,8 @@
     display: inline-block;
   }
 }
+@media (min-width: 576px) {
+  .my-nav {
+    display: flex;
+  }
+}

@@ -1,10 +1,10 @@
 import React from "react";
 
-import Example from "../3dCarousel";
+import Example from "../components/3dCarousel";
 
-import Title from "../Title";
-import TwoColumnContainer from "../TwoColumnContainer";
-import CitySvg from "../CitySVG";
+import Title from "../components/Title";
+import TwoColumnContainer from "../components/TwoColumnContainer";
+import CitySvg from "../components/CitySVG";
 
 function About() {
   return (

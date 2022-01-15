@@ -1,8 +1,8 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 
-import Item from "../Item";
-import Title from "../Title";
+import Item from "../components/Item";
+import Title from "../components/Title";
 
 function Project() {
   return (

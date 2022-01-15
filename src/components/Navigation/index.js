@@ -4,13 +4,16 @@ import { Link } from "react-router-dom";
 import "./style.css";
 function Navigation() {
   const myNav = React.useRef();
-  //   const { mywidth, setMyWidth } = React.useState(window.innerWidth);
-  //   const updateDimensions = () => {
-  //     if (window.innerWidth > 576) {
-  //       //   window.document.getElementById("my-nav").style.display = "flex";
-  //     }
-  //   };
-  //   window.addEventListener("resize", updateDimensions);
+  const updateDimensions = () => {
+    if (window.innerWidth > 576) {
+      // as  long as the window size which is greater than 576 modified, the nav part will appear
+      window.document.getElementById("my-nav").style.display = "flex";
+    } else {
+      // as  long as the window size which is less than 576 modified, the nav part will disappear
+      window.document.getElementById("my-nav").style.display = "none";
+    }
+  };
+  window.addEventListener("resize", updateDimensions);
   return (
     <>
       <div className="my-nav-bar">

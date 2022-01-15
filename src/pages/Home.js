@@ -1,9 +1,9 @@
 import React from "react";
 
 import { Button } from "react-bootstrap";
-import TwoColumnContainer from "../TwoColumnContainer";
-import Title from "../Title";
-import HomeBackground from "../HomeBackground";
+import TwoColumnContainer from "../components/TwoColumnContainer";
+import Title from "../components/Title";
+import HomeBackground from "../components/HomeBackground";
 
 function Home() {
   return (

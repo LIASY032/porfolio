@@ -1,11 +1,11 @@
 import React from "react";
 
-import MyMap from "../MyMap";
+import MyMap from "../components/MyMap";
 
-import TwoColumnContainer from "../TwoColumnContainer";
-import Title from "../Title";
+import TwoColumnContainer from "../components/TwoColumnContainer";
+import Title from "../components/Title";
 
-import ContactForm from "../ContactForm";
+import ContactForm from "../components/ContactForm";
 
 function Contact() {
   return (
