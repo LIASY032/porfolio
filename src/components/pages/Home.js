@@ -1,6 +1,4 @@
 import React from "react";
-import "./home.css";
-import "./common.css";
 
 import { Button } from "react-bootstrap";
 import TwoColumnContainer from "../TwoColumnContainer";

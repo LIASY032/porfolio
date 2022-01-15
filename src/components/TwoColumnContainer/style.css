@@ -13,7 +13,7 @@
 }
 .flex-container .right-item {
   order: 1;
-  align-items: center;
+  margin: auto;
 }
 @media (max-width: 900px) {
   .flex-container {

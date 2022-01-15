@@ -1,5 +1,4 @@
 import React from "react";
-import "./common.css";
 
 import Example from "../3dCarousel";
 

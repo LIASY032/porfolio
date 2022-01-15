@@ -1,8 +1,6 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 
-import "./common.css";
-
 import Item from "../Item";
 import Title from "../Title";
 

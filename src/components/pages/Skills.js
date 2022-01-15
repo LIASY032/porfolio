@@ -1,5 +1,4 @@
 import React from "react";
-import "./common.css";
 
 import Particles from "react-particles-js";
 import SkillBar from "react-skillbars";
