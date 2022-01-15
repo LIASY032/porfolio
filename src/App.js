@@ -7,16 +7,26 @@ import Skills from "./components/pages/Skills";
 import Contact from "./components/pages/Contact";
 
 import Navigation from "./components/Navigation";
-import { Row, Col } from "react-bootstrap";
 
 function App() {
   return (
     <div className="App">
       <Router>
-        <Row style={{ width: "100vw", position: "relative" }}>
-          <Col sm={1}>
-            <Navigation />
-          </Col>
+        <div className="my-container">
+          <Navigation />
+
+          <div className="my-content">
+            <Switch>
+              <Route path="/" exact component={Home}></Route>
+              <Route path="/about" component={About}></Route>
+              <Route path="/project" component={Project}></Route>
+              <Route path="/skill" component={Skills}></Route>
+              <Route path="/contact" component={Contact}></Route>
+            </Switch>
+          </div>
+        </div>
+        {/* <Row style={{ width: "100vw" }}>
+          <Col sm={1}></Col>
           <Col sm={11}>
             <Switch>
               <Route path="/" exact component={Home}></Route>
@@ -26,7 +36,7 @@ function App() {
               <Route path="/contact" component={Contact}></Route>
             </Switch>
           </Col>
-        </Row>
+        </Row> */}
       </Router>
     </div>
   );
