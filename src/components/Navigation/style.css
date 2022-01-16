@@ -1,9 +1,10 @@
 .my-nav {
-  display: flex;
+  display: inline-flex;
   flex-direction: column;
   text-align: center;
   justify-content: space-around;
   color: #909096;
+  top: 10vh;
 }
 .my-nav-item {
   border-bottom: 1px solid #909096;
@@ -13,7 +14,7 @@
   color: inherit;
 }
 .my-icons-container {
-  display: flex;
+  display: inline-flex;
 
   justify-content: space-around;
 }
@@ -30,7 +31,7 @@
   display: flex;
 }
 .my-nav-bar {
-  display: flex;
+  display: inline-flex;
   flex-direction: column;
 }
 .my-nav-button {
@@ -41,6 +42,19 @@
 .my-nav-close {
   display: none;
 }
+.sticky-container {
+  position: -webkit-sticky;
+  position: sticky;
+
+  left: 0;
+  display: inline-block;
+}
+
+.my-brand {
+  height: 10vh;
+  top: 0;
+}
+
 @media (max-width: 576px) {
   .my-container {
     flex-direction: column;
@@ -51,7 +65,7 @@
     justify-content: space-between;
   }
   .my-nav-close {
-    display: block;
+    display: inline-block;
   }
   .my-nav-close span {
     float: right;
@@ -75,6 +89,6 @@
 }
 @media (min-width: 576px) {
   .my-nav {
-    display: flex;
+    display: inline-flex;
   }
 }

@@ -7,7 +7,7 @@ function Navigation() {
   const updateDimensions = () => {
     if (window.innerWidth > 576) {
       // as  long as the window size which is greater than 576 modified, the nav part will appear
-      window.document.getElementById("my-nav").style.display = "flex";
+      window.document.getElementById("my-nav").style.display = "inline-flex";
     } else {
       // as  long as the window size which is less than 576 modified, the nav part will disappear
       window.document.getElementById("my-nav").style.display = "none";
@@ -16,8 +16,8 @@ function Navigation() {
   window.addEventListener("resize", updateDimensions);
   return (
     <>
-      <div className="my-nav-bar">
-        <div className="my-brand">Shiwei</div>
+      <div className="my-nav-bar z-index-1">
+        <div className="my-brand sticky-container">Shiwei</div>
         <div
           className="my-nav-button"
           onClick={() => {
@@ -26,7 +26,11 @@ function Navigation() {
         >
           ☰
         </div>
-        <div id="my-nav" className="my-nav" ref={myNav}>
+        <div
+          id="my-nav"
+          className="my-nav sticky-container z-index-1"
+          ref={myNav}
+        >
           <div
             className="my-nav-close"
             onClick={() => {

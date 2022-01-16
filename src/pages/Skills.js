@@ -9,6 +9,11 @@ function Skills() {
   const skills = [
     { type: "React", level: 85 },
     { type: "Javascript", level: 75 },
+    { type: "Node.js", level: 85 },
+
+    { type: "C#", level: 75 },
+    { type: "Java", level: 50 },
+    { type: ".Net", level: 50 },
   ];
   return (
     <>
@@ -36,7 +41,18 @@ function Skills() {
       <TwoColumnContainer>
         <TwoColumnContainer.Left>
           <Title>Skills</Title>
-          <p>redux react css javascript java python data structure sql</p>
+
+          <p>
+            I have a great passion for programming and boast excellent skills
+            for the job, such as EntityFramework, ASP.NET, C#, JavaScript,
+            Node.js, Express.js, React, and so on. I have over 3 months of
+            experience working as a software engineer in Nusunm Pty. Ltd, during
+            which I created a website with React, learning php and laravel for
+            improving backend, and building server with Nginx deploys website by
+            using AWS ec2. Till now, I am exploring a greater challenge. I hope
+            that my previous experience and skills can be put to efficient use
+            in your company.
+          </p>
         </TwoColumnContainer.Left>
         <TwoColumnContainer.Right>
           <SkillBar skills={skills} />

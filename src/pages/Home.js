@@ -26,7 +26,12 @@ function Home() {
           <span style={{ display: "inline-flex" }}>&nbsp;</span>
           <Title>Liang</Title>
           <br />
-          <Button variant="warning" href="/contact" size="lg">
+          <Button
+            variant="warning"
+            href="/contact"
+            size="lg"
+            className="z-index-1"
+          >
             Contact me
           </Button>
         </TwoColumnContainer.Left>
