@@ -1,21 +1,22 @@
 .e-card {
   width: 100%;
-  margin-bottom: 2rem;
-  padding: 2rem;
+
+  padding: 2vh;
   border: 1px solid white;
   background: #2a2a2a;
+
   .e-card-title {
-    font-size: 2.6rem;
+    font-size: 4vh;
     line-height: 2rem;
     margin-bottom: 2rem;
   }
   .e-card-date {
     color: #ababab;
     display: block;
-    font-size: 1.2rem;
+    font-size: 2vh;
   }
   .e-card-description {
-    font-size: 1.6rem;
+    font-size: 3vh;
     color: #ababab;
     line-height: 1.8rem;
   }

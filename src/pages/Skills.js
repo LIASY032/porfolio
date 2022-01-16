@@ -10,7 +10,7 @@ function Skills() {
     { type: "React", level: 85 },
     { type: "Javascript", level: 75 },
     { type: "Node.js", level: 85 },
-
+    { type: "React", level: 85 },
     { type: "C#", level: 75 },
     { type: "Java", level: 50 },
     { type: ".Net", level: 50 },
