@@ -17,11 +17,18 @@ function Navigation() {
   return (
     <>
       <div className="my-nav-bar z-index-1">
-        <div className="my-brand sticky-container">Shiwei</div>
+        <div className="my-brand sticky-container">
+          <img
+            src="logo.png"
+            alt="L logo"
+            style={{ width: "100%", height: "100%" }}
+          ></img>
+        </div>
         <div
           className="my-nav-button"
           onClick={() => {
-            window.document.getElementById("my-nav").style.display = "flex";
+            window.document.getElementById("my-nav").style.display =
+              "inline-flex";
           }}
         >
           ☰

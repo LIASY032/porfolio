@@ -8,6 +8,7 @@ import HomeBackground from "../components/HomeBackground";
 function Home() {
   return (
     <>
+      <HomeBackground></HomeBackground>
       <TwoColumnContainer>
         <TwoColumnContainer.Left>
           <Title> Hi,</Title>
@@ -39,7 +40,6 @@ function Home() {
           <img src="logo.png" alt="L logo"></img>
         </TwoColumnContainer.Right>
       </TwoColumnContainer>
-      <HomeBackground></HomeBackground>
     </>
   );
 }

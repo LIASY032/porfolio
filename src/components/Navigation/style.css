@@ -29,6 +29,8 @@
 
 .my-container {
   display: flex;
+  width: 100%;
+  min-height: 100vh;
 }
 .my-nav-bar {
   display: inline-flex;
@@ -63,6 +65,9 @@
     width: 100%;
     flex-direction: row;
     justify-content: space-between;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
   }
   .my-nav-close {
     display: inline-block;
@@ -79,12 +84,17 @@
     justify-content: space-around;
     display: none;
     position: fixed;
-    z-index: 1;
+
+    top: 0;
     background-color: #1d1d1d;
     width: 100%;
   }
+  .my-nav-item {
+  }
+
   .my-nav-button {
     display: inline-block;
+    font-size: 5vh;
   }
 }
 @media (min-width: 576px) {
