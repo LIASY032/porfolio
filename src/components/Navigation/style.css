@@ -35,6 +35,7 @@
 .my-nav-bar {
   display: inline-flex;
   flex-direction: column;
+  max-width: 10vw;
 }
 .my-nav-button {
   display: none;
@@ -53,7 +54,7 @@
 }
 
 .my-brand {
-  height: 10vh;
+  width: 8vw;
   top: 0;
 }
 
