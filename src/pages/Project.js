@@ -2,7 +2,8 @@ import React from "react";
 import { Row } from "react-bootstrap";
 
 import Title from "../components/Title";
-import Gallery from "../components/Gallery";
+// import Gallery from "../components/Gallery";
+import Items from "../components/Items";
 function Project() {
   return (
     <div className="common-container">
@@ -10,7 +11,15 @@ function Project() {
         <Title>Projects</Title>
       </Row>
       <Row>
-        <Gallery />
+        <Items>
+          <Items.Item
+            header="React Shopping Cart"
+            img="https://user-images.githubusercontent.com/66517361/129296452-ea1f187c-d052-4fe5-8ab5-3a6712ece44d.png"
+          >
+            It provides the basic functions and user friendly interface for
+            customers.
+          </Items.Item>
+        </Items>
       </Row>
     </div>
   );
