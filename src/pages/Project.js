@@ -19,6 +19,11 @@ function Project() {
             It provides the basic functions and user friendly interface for
             customers.
           </Items.Item>
+          <Items.Item header="6-Eleven" img="images/6_eleven.png">
+            Built with modern web frameworks, the project consists of key
+            components of a commercial E-commerce website that aims to provide a
+            rich user experience.
+          </Items.Item>
         </Items>
       </Row>
     </div>
