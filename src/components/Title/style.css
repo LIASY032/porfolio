@@ -9,6 +9,7 @@ h2 {
   line-height: 6.7rem;
   display: inline-block;
   text-align: center;
+  padding-right: 3vw;
 }
 h2 .animated-text {
   font-size: 6.5rem;

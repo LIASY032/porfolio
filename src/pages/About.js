@@ -13,11 +13,11 @@ function About() {
       <TwoColumnContainer>
         <TwoColumnContainer.Left>
           <Title>About</Title>{" "}
+          {/* <span style={{ display: "inline-flex" }}>&nbsp;</span>
           <span style={{ display: "inline-flex" }}>&nbsp;</span>
           <span style={{ display: "inline-flex" }}>&nbsp;</span>
           <span style={{ display: "inline-flex" }}>&nbsp;</span>
-          <span style={{ display: "inline-flex" }}>&nbsp;</span>
-          <span style={{ display: "inline-flex" }}>&nbsp;</span>
+          <span style={{ display: "inline-flex" }}>&nbsp;</span> */}
           <Title>me</Title>
           <p>Hi Guys,</p>
           <p>
