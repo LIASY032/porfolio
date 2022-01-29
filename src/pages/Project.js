@@ -1,5 +1,4 @@
 import React from "react";
-import { Row } from "react-bootstrap";
 
 import Title from "../components/Title";
 // import Gallery from "../components/Gallery";

@@ -16,65 +16,66 @@ function Navigation() {
   window.addEventListener("resize", updateDimensions);
   return (
     <>
-      <div className="my-nav-bar z-index-1">
-        <div className="my-brand sticky-container">
-          <img
-            src="logo.png"
-            alt="L logo"
-            style={{ width: "100%", height: "100%" }}
-          ></img>
-        </div>
-        <div
-          className="my-nav-button"
-          onClick={() => {
-            window.document.getElementById("my-nav").style.display =
-              "inline-flex";
-          }}
-        >
-          ☰
-        </div>
-        <div
-          id="my-nav"
-          className="my-nav sticky-container z-index-1"
-          ref={myNav}
-        >
+      <div>
+        <div className="my-nav-bar z-index-1 sticky-container">
+          <div className="my-brand">
+            <img
+              src="logo.png"
+              alt="L logo"
+              style={{ width: "100%", height: "100%" }}
+            ></img>
+          </div>
           <div
-            className="my-nav-close"
+            className="my-nav-button"
             onClick={() => {
-              window.document.getElementById("my-nav").style.display = "none";
+              window.document.getElementById("my-nav").style.display =
+                "inline-flex";
             }}
           >
-            <span>X</span>
+            ☰
           </div>
-          <Link to="/" className="my-nav-item z-index-1">
-            Home
-          </Link>
-          <Link to="/about" className="my-nav-item z-index-1">
-            About
-          </Link>
-
-          <Link to="/skill" className="my-nav-item z-index-1">
-            Skill
-          </Link>
-
-          <Link to="/project" className="my-nav-item z-index-1">
-            Project
-          </Link>
-
-          <Link to="/contact" className="my-nav-item z-index-1">
-            Contact
-          </Link>
-
-          <div className="my-icons-container">
-            <a className="my-icon z-index-1" href="https://github.com/LIASY032">
-              <Github />
-            </a>
-            <a
-              className="my-icon z-index-1"
-              href="https://www.linkedin.com/in/shiwei-liang-486509221/"
+          <div id="my-nav" className="my-nav z-index-1" ref={myNav}>
+            <div
+              className="my-nav-close"
+              onClick={() => {
+                window.document.getElementById("my-nav").style.display = "none";
+              }}
             >
-              <Linkedin />
-            </a>
+              <span>X</span>
+            </div>
+            <Link to="/" className="my-nav-item z-index-1">
+              Home
+            </Link>
+            <Link to="/about" className="my-nav-item z-index-1">
+              About
+            </Link>
+
+            <Link to="/skill" className="my-nav-item z-index-1">
+              Skill
+            </Link>
+
+            <Link to="/project" className="my-nav-item z-index-1">
+              Project
+            </Link>
+
+            <Link to="/contact" className="my-nav-item z-index-1">
+              Contact
+            </Link>
+
+            <div className="my-icons-container">
+              <a
+                className="my-icon z-index-1"
+                href="https://github.com/LIASY032"
+              >
+                <Github />
+              </a>
+              <a
+                className="my-icon z-index-1"
+                href="https://www.linkedin.com/in/shiwei-liang-486509221/"
+              >
+                <Linkedin />
+              </a>
+            </div>
           </div>
         </div>
       </div>

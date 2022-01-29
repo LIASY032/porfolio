@@ -4,7 +4,6 @@
   text-align: center;
   justify-content: space-around;
   color: #909096;
-  top: 10vh;
 }
 .my-nav-item {
   border-bottom: 1px solid #909096;
@@ -35,6 +34,7 @@
 .my-nav-bar {
   display: inline-flex;
   flex-direction: column;
+  top: 0;
   max-width: 10vw;
 }
 .my-nav-button {
