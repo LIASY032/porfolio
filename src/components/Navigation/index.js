@@ -16,7 +16,7 @@ function Navigation() {
   window.addEventListener("resize", updateDimensions);
   return (
     <>
-      <div>
+      <div className="sticky-container my-nav-bar-container z-index-1">
         <div className="my-nav-bar z-index-1 sticky-container">
           <div className="my-brand">
             <img

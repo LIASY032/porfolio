@@ -10,29 +10,14 @@ function Home() {
     <>
       <HomeBackground></HomeBackground>
       <TwoColumnContainer>
-        <TwoColumnContainer.Left>
+        <TwoColumnContainer.Left className="z-index-1">
           <Title> Hi,</Title>
           <br />
           <Title>I'm</Title>
-          {/* <span style={{ display: "inline-flex" }}>&nbsp;</span>
-          <span style={{ display: "inline-flex" }}>&nbsp;</span>
-          <span style={{ display: "inline-flex" }}>&nbsp;</span>
-          <span style={{ display: "inline-flex" }}>&nbsp;</span>
-          <span style={{ display: "inline-flex" }}>&nbsp;</span> */}
           <Title> Shiwei </Title>
-          {/* <span style={{ display: "inline-flex" }}>&nbsp;</span>
-          <span style={{ display: "inline-flex" }}>&nbsp;</span>
-          <span style={{ display: "inline-flex" }}>&nbsp;</span>
-          <span style={{ display: "inline-flex" }}>&nbsp;</span>
-          <span style={{ display: "inline-flex" }}>&nbsp;</span> */}
           <Title>Liang</Title>
           <br />
-          <Button
-            variant="warning"
-            href="/contact"
-            size="lg"
-            className="z-index-1"
-          >
+          <Button variant="warning" href="/contact" size="lg">
             Contact me
           </Button>
         </TwoColumnContainer.Left>

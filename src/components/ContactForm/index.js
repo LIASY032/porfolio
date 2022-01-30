@@ -3,7 +3,7 @@ import React from "react";
 function ContactForm() {
   return (
     <>
-      <form id="contact" autocomplete="off"></form>
+      <form id="contact" autoComplete="off"></form>
     </>
   );
 }

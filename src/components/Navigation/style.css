@@ -1,3 +1,6 @@
+.my-nav-bar-container {
+  top: 0;
+}
 .my-nav {
   display: inline-flex;
   flex-direction: column;
@@ -50,7 +53,7 @@
   position: sticky;
 
   left: 0;
-  display: inline-block;
+  /* display: inline-block; */
 }
 
 .my-brand {

@@ -41,6 +41,8 @@ function Skills() {
       <TwoColumnContainer>
         <TwoColumnContainer.Left>
           <Title>Skills</Title>
+          <Title>&</Title>
+          <Title>Experience</Title>
 
           <p>
             I have a great passion for programming and boast excellent skills
