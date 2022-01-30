@@ -12,11 +12,6 @@ function Contact() {
     <TwoColumnContainer>
       <TwoColumnContainer.Left>
         <Title>Contact</Title>
-        {/* <span style={{ display: "inline-flex" }}>&nbsp;</span>
-        <span style={{ display: "inline-flex" }}>&nbsp;</span>
-        <span style={{ display: "inline-flex" }}>&nbsp;</span>
-        <span style={{ display: "inline-flex" }}>&nbsp;</span>
-        <span style={{ display: "inline-flex" }}>&nbsp;</span> */}
         <Title>me</Title>
 
         <ContactForm />
