@@ -178,9 +178,9 @@ $tiri-sans: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
     @return 0;
   } @else {
     @if $unit == "rem" {
-      @return $target / $rem-font-size-base + rem;
+      @return $target / 10 + rem;
     } @else {
-      @return $target / $em-font-size-base + em;
+      @return $target / 14 + em;
     }
   }
 }
