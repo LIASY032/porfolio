@@ -20,7 +20,7 @@ function ContactForm() {
           </li>
           <li className="submit ">
             <input type="hidden" name="ip" value="203.220.138.12" />
-            <a id="submit-form" className="flat-button ">
+            <a href="/" id="submit-form" className="flat-button ">
               <div>
                 <span className="bg"></span>
                 <span className="base"></span>
