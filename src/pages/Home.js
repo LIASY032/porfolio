@@ -3,7 +3,7 @@ import React from "react";
 import { Button } from "react-bootstrap";
 import TwoColumnContainer from "../components/TwoColumnContainer";
 import Title from "../components/Title";
-import HomeBackground from "../components/HomeBackground";
+import HomeBackground from "../components/Background/HomeBackground";
 
 function Home() {
   return (

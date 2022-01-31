@@ -29,11 +29,6 @@
   color: #08fdd8;
 }
 
-.my-container {
-  display: flex;
-  width: 100%;
-  min-height: 100vh;
-}
 .my-nav-bar {
   display: inline-flex;
   flex-direction: column;

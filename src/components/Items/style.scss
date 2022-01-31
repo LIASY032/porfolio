@@ -43,24 +43,24 @@ $fold-radius: 80;
   $reduction: -2,
   $color: $black
 ) {
-  $shadow-off: rem($offset) rem($offset);
+  $shadow-off: 0.2rem 0.2rem;
 
   @if $direction == "t" {
-    $shadow-off: 0 rem(-$offset);
+    $shadow-off: 0 -0.2rem;
   } @else if $direction == "r" {
-    $shadow-off: rem($offset) 0;
+    $shadow-off: 0.2rem 0;
   } @else if $direction == "b" {
-    $shadow-off: 0 rem($offset);
+    $shadow-off: 0 0.2rem;
   } @else if $direction == "l" {
-    $shadow-off: rem(-$offset) 0;
+    $shadow-off: -0.2rem 0;
   } @else if $direction == "tl" {
-    $shadow-off: rem(-$offset) rem(-$offset);
+    $shadow-off: -0.2rem -0.2rem;
   } @else if $direction == "tr" {
-    $shadow-off: rem($offset) rem(-$offset);
+    $shadow-off: 0.2rem -0.2rem;
   } @else if $direction == "bl" {
-    $shadow-off: rem(-$offset) rem($offset);
+    $shadow-off: -0.2rem 0.2rem;
   }
-  box-shadow: $shadow-off rem($intensity) rem($reduction) $color;
+  box-shadow: $shadow-off 1rem -0.2rem $color;
 }
 
 @mixin gold-border($border-width: 1, $border-style: solid) {
@@ -226,16 +226,16 @@ img {
 
 .tiles {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(#{rem(250)}, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(#{25rem}, 1fr));
   justify-content: center;
   place-items: stretch center;
   align-items: stretch;
-  padding: 0 0 rem(70);
+  padding: 0 0 7rem;
   .tile {
     position: relative;
-    margin: auto rem(15) rem(40);
+    margin: auto 1.5rem 4rem;
     transition: all 0.5s;
-    transform-origin: 50% rem(-35);
+    transform-origin: 50% -3.5rem;
 
     .tile-content,
     .tile-head,

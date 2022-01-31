@@ -61,8 +61,8 @@ function Skills() {
           <ExperienceCard title="Software Engineer" date="8/2021 - 11/2021">
             <ul>
               <li>Create a new website</li>
-              <li>Nginx deploy react by using AWS ec2.</li>
-              <li>Learned PHP and Laravel for improving company backend.</li>
+              <li>Deploy react by using AWS ec2.</li>
+              <li>Learn PHP and Laravel for improving company backend.</li>
             </ul>
           </ExperienceCard>
         </TwoColumnContainer.Right>

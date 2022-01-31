@@ -4,7 +4,7 @@ import Example from "../components/3dCarousel";
 
 import Title from "../components/Title";
 import TwoColumnContainer from "../components/TwoColumnContainer";
-import CitySvg from "../components/CitySVG";
+import CitySvg from "../components/Background/CitySVG";
 
 function About() {
   return (

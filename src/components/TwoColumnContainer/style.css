@@ -7,7 +7,6 @@
 .flex-container .item {
   width: 50%;
   height: 100%;
-  position: relative;
 }
 .flex-container .item p {
   position: relative;
