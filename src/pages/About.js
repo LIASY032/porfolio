@@ -1,11 +1,11 @@
 import React from "react";
 
-import Example from "../components/3dCarousel";
+
 
 import Title from "../components/Title";
 import TwoColumnContainer from "../components/TwoColumnContainer";
 import CitySvg from "../components/Background/CitySVG";
-import Embers from "../components/Background/Embers";
+
 import MyCanvas from "../components/Background/Embers/MyCanvas";
 
 function About() {

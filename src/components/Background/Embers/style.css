@@ -9,3 +9,8 @@
     margin: auto;
     width: 100%;
 }
+
+#tags a{
+    color: #08fdd8;
+    text-decoration: none;
+}
