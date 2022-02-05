@@ -11,7 +11,7 @@ function MyCanvas() {
     <>
       <div id="myCanvasContainer">
         <canvas width="300" height="300" id="myCanvas">
-        \
+        
         </canvas>
       </div>
       <div id="tags" style={{ fontSize: '50%' }}>
