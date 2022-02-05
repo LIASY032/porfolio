@@ -15,20 +15,18 @@ function MyCanvas() {
         </canvas>
       </div>
       <div id="tags" style={{ fontSize: '50%' }}>
-        <a href="#">1000</a>
-        <a href="#">background</a>
-        <a href="#">canvas</a>
-        <a href="#">chart</a>
-        <a href="#">charts</a>
-        <a href="#">cloud</a>
-        <a href="#">clouds</a>
-        <a href="#">example</a>
-        <a href="#">goat</a>
-        <a href="#">goat1000</a>
-        <a href="#">graph</a>
-        <a href="#">graphs</a>
-        <a href="#">html</a>
-        <a href="#">html5</a>
+      <a href="/about">npm</a>
+      <a href="/about">NodeJS</a>
+      
+      <a href="/about">Javascript</a>
+      <a href="/about">Python</a>
+      <a href="/about">Java</a>
+      <a href="/about">C#</a>
+      <a href="/about">C++</a>
+      <a href="/about">TypeScript</a>
+      <a href="/about">html</a>
+      <a href="/about">css</a>
+      <a href="/about">scss</a>
       </div>
     </>
   );
