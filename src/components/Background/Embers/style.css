@@ -1,0 +1,16 @@
+.cover {
+  
+
+  top: 50%;
+    transform: translateY(-50%);
+}
+
+#myCanvas {
+    margin: auto;
+    width: 100%;
+}
+
+#tags a{
+    color: #08fdd8;
+    text-decoration: none;
+}
