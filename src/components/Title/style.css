@@ -1,19 +1,16 @@
 h2 {
   color: #08fdd8;
   font-weight: 400;
-  margin-top: 0;
   position: relative;
   margin-bottom: 40px;
   left: -10px;
-  font-size: 7.3rem;
-  line-height: 6.7rem;
   display: inline-block;
   text-align: center;
   padding-right: 3vw;
 }
 h2 .animated-text {
-  font-size: 6.5rem;
-  line-height: 6rem;
+  font-size: 10vh;
+  line-height: 10vh;
   display: inline-block;
   -webkit-transition: all 0.3s ease-out;
   -o-transition: all 0.3s ease-out;

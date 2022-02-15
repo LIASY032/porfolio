@@ -15,7 +15,9 @@ function Navigation() {
   };
 
   function closeNav() {
-    window.document.getElementById("my-nav").style.display = "none";
+    if (window.innerWidth < 576) {
+      window.document.getElementById("my-nav").style.display = "none";
+    }
   }
   window.addEventListener("resize", updateDimensions);
   return (
