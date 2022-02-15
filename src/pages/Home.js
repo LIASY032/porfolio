@@ -10,7 +10,7 @@ function Home() {
     <>
       <HomeBackground></HomeBackground>
       <TwoColumnContainer>
-        <TwoColumnContainer.Left className="z-index-1">
+        <TwoColumnContainer.Left>
           <Title> Hi,</Title>
           <br />
           <Title>I'm</Title>

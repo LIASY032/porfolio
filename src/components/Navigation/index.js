@@ -13,6 +13,10 @@ function Navigation() {
       window.document.getElementById("my-nav").style.display = "none";
     }
   };
+
+  function closeNav() {
+    window.document.getElementById("my-nav").style.display = "none";
+  }
   window.addEventListener("resize", updateDimensions);
   return (
     <>
@@ -34,31 +38,42 @@ function Navigation() {
           >
             ☰
           </div>
-          <div id="my-nav" className="my-nav z-index-1" ref={myNav}>
-            <div
-              className="my-nav-close"
-              onClick={() => {
-                window.document.getElementById("my-nav").style.display = "none";
-              }}
-            >
+          <div id="my-nav" className="z-index-1 my-nav " ref={myNav}>
+            <div className="my-nav-close" onClick={closeNav}>
               <span>X</span>
             </div>
-            <Link to="/" className="my-nav-item z-index-1">
+            <Link onClick={closeNav} to="/" className="my-nav-item z-index-1">
               Home
             </Link>
-            <Link to="/about" className="my-nav-item z-index-1">
+            <Link
+              onClick={closeNav}
+              to="/about"
+              className="my-nav-item z-index-1"
+            >
               About
             </Link>
 
-            <Link to="/skill" className="my-nav-item z-index-1">
+            <Link
+              onClick={closeNav}
+              to="/skill"
+              className="my-nav-item z-index-1"
+            >
               Skill
             </Link>
 
-            <Link to="/project" className="my-nav-item z-index-1">
+            <Link
+              onClick={closeNav}
+              to="/project"
+              className="my-nav-item z-index-1"
+            >
               Project
             </Link>
 
-            <Link to="/contact" className="my-nav-item z-index-1">
+            <Link
+              onClick={closeNav}
+              to="/contact"
+              className="my-nav-item z-index-1"
+            >
               Contact
             </Link>
 
