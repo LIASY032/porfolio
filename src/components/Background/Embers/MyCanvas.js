@@ -6,7 +6,7 @@ function MyCanvas() {
     <>
       <div id="myCanvasContainer">
         <canvas width="300" height="300" id="myCanvas">
-          <div id="tags" style={{ fontSize: "50%" }}>
+          <div id="tags">
             <a href="/about">npm</a>
             <a href="/about">NodeJS</a>
 
